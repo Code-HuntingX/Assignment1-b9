@@ -11,13 +11,45 @@ header,
     padding: 50px 140px 120px 140px;
 }
 
+.header-bg h3 {
+    padding: 233px 344px 0 344px;
+}
+
+.header-bg h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 177px;
+    margin: 0 344px;
+}
+
 header .common-bg {
     width: 1320px;
     height: 600px;
     border-radius: 16px;
     background-image: url('../resources/Banner\ Image.png');
-    /* background-color: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     margin: auto;
+}
+
+.color-mix {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+}
+
+header h3 {
+    margin: auto;
+    color: #FFF;
+    text-align: center;
+    /* align-items: center; */
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+
 }
 
 /* discount section styles */
@@ -60,10 +92,49 @@ header .common-bg {
 .party-bg {
     background-image: url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
+    padding-top: 126px;
+
+}
+.party-opa{
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 
-/* hotel info styles */
-.hotel-bg{
-    background-color: rgb(242, 218, 248);
-    height: 482px;
+.party-bg h2 {
+    margin: 0 512px 0 126px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
 }
+
+.party-bg p {
+    margin: 24px 497px 0 126px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.party-bg p a{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+text-decoration: none;
+margin:48 158px;
+}
+    /* hotel info styles */
+.common-bg {
+        background-color: rgb(242, 218, 248);
+        height: 482px;
+    }
