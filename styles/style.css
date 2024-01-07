@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header section */
+header,
+.common {
+    padding: 50px 140px 120px 140px;
+}
+
+header .common-bg {
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background-image: url('../resources/Banner\ Image.png');
+    /* background-color: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    margin: auto;
+}
+
+/* discount section styles */
+.discount {
+    padding: 0 399px 120px 399px;
+    text-align: center;
+    font-family: Inter;
+}
+
+.discount h1 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.discount p {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.discount h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.discount img {
+    margin-top: 48px;
+}
+
+
+.common-bg {
+    margin: auto;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+}
+
+.party-bg {
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+}
+
+/* hotel info styles */
+.hotel-bg{
+    background-color: rgb(242, 218, 248);
+    height: 482px;
+}
