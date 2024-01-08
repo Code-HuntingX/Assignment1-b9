@@ -316,6 +316,7 @@ footer {
     margin: auto;
     /* padding: 120px 140px; */
     color: white;
+    /* background-color: #070211; */
 }
 
 footer .add-contact {
@@ -364,7 +365,7 @@ margin-left: 140px;
     justify-content: space-between;
 }
 .copyright p{
-    margin: 50px 0 120px 140px;
+    margin: 50px 0 0 140px;
     color: #FFF;
 font-family: Inter;
 font-size: 24px;
@@ -373,11 +374,12 @@ font-weight: 500;
 line-height: normal;
 }
 .copyright h5{
-    margin: 50px 140px 120px 0px;
+    margin: 50px 140px 0 0;
     color: #FFF;
 font-family: Inter;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+
 }
