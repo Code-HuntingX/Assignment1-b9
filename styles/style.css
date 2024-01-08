@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    padding-bottom: 50px;
+}
 
 /* header section */
 header,
@@ -81,6 +84,7 @@ header h3 {
     margin-top: 48px;
 }
 
+/* party section  */
 .party-bg {
     background-image: url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
@@ -88,22 +92,25 @@ header h3 {
     width: 1320px;
     height: 600px;
     border-radius: 16px;
+}
 
-}
-.cmn{
-    padding-top: 126px;
-}
-.party-opa{
+.party-opa {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     width: 1320px;
     height: 600px;
     border-radius: 16px;
-    /* padding-top: 126px; */
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.party-opa .image {
+    margin: 68px 138px 68px 0;
+
 }
 
 .party-bg h2 {
-    padding-top: 126px;
-    margin: 0 512px 0 126px;
+    padding: 126px 0 0 126px;
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
@@ -114,27 +121,25 @@ header h3 {
 }
 
 .party-bg p {
-    margin: 24px 497px 0 126px;
+    margin: 24px 0px 0 126px;
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
-.party-bg p a{
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-text-decoration: none;
-margin:48 158px;
+
+.party-bg p a {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 38px;
 }
-    /* hotel info styles */
-.common-bg {
-        background-color: rgb(242, 218, 248);
-        height: 482px;
-    }
+
+/* hotel info styles */
