@@ -6,7 +6,9 @@
 }
 
 body {
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
+    /* padding-right: 120px;
+    padding-left: 120px; */
 }
 
 /* header section */
@@ -53,8 +55,9 @@ header h3 {
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
-
 }
+
+/* ----------Header Section Doine---------- */
 
 /* discount section styles */
 .discount {
@@ -84,6 +87,8 @@ header h3 {
 .discount img {
     margin-top: 48px;
 }
+
+/* -------Discount Section Done--------- */
 
 /* party section  */
 .party-bg {
@@ -143,6 +148,9 @@ header h3 {
     padding-left: 38px;
 }
 
+/* -------Party Section Done--------- */
+
+
 /* hotel info styles */
 .hotel-bg {
     width: 1320px;
@@ -151,6 +159,7 @@ header h3 {
     background-image: linear-gradient(RGB(255, 232, 232), RGB(255, 251, 251));
     margin: auto;
     margin-top: 120px;
+    /* margin-bottom: 120px; */
 }
 
 .hotel-bg .hotel-info {
@@ -175,4 +184,200 @@ header h3 {
     width: 170px;
     height: 56px;
     border: none;
+}
+
+/* -------Hotel info section done---------- */
+
+/* bonus section  */
+
+/* ---------bonus section not complete--------- */
+
+/* Gifts section style  */
+.gifts {
+    /* padding: 120px 140px 0 140px; */
+    align-items: center;
+    width: 1320px;
+    background: #FFF;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.gifts-discussion h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.gifts-discussion h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.gifts-discussion p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    margin-bottom: 48px;
+}
+
+.image1 {
+    border-radius: 16px;
+    padding-right: 24px;
+    margin-bottom: 24px;
+    width: 413px;
+    height: 439px;
+}
+
+/* Mail section Style  */
+.mail {
+    width: 1320px;
+    height: 616px;
+    background-color: RGB(255, 232, 232);
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.mail .subscribe img {
+    margin: 80px 585px 40px 585px;
+}
+
+.mail .subscribe h1 {
+    text-align: center;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.mail .subscribe p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.subscribe .usermail {
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    margin: 0 336px 80px 336px;
+}
+
+.sub {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    margin-left: 438px;
+    text-align: center;
+    text-align: center;
+
+}
+
+.usermail .sub h6 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px 56px;
+}
+
+
+/* footer style  */
+footer {
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+    margin: auto;
+    /* padding: 120px 140px; */
+    color: white;
+}
+
+footer .add-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-contact .address {
+    margin-top: 120px;
+    margin-left: 140px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+.add-contact .contact {
+    margin-top: 120px;
+    margin-right: 291px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.line{
+    background: rgba(255, 255, 255, 0.15);
+    width: 1320px;
+height: 1px;
+margin-right: 140px;
+margin-left: 140px;
+}
+
+.social{
+    /* margin: 48px 640px 0  640px; */
+    margin: auto;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p{
+    margin: 50px 0 120px 140px;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.copyright h5{
+    margin: 50px 140px 120px 0px;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
