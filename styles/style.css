@@ -5,11 +5,6 @@
     padding: 0;
 }
 
-body {
-    /* padding-bottom: 50px; */
-    /* padding-right: 120px;
-    padding-left: 120px; */
-}
 
 /* header section */
 header,
@@ -51,7 +46,6 @@ header h3 {
     margin: auto;
     color: #FFF;
     text-align: center;
-    /* align-items: center; */
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
@@ -194,7 +188,6 @@ header h3 {
 
 /* Gifts section style  */
 .gifts {
-    /* padding: 120px 140px 0 140px; */
     align-items: center;
     width: 1320px;
     background: #FFF;
@@ -230,7 +223,6 @@ header h3 {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
     margin-bottom: 48px;
 }
 
@@ -291,21 +283,20 @@ header h3 {
     border: none;
 
 }
-.subscribe input::placeholder{
+
+.subscribe input::placeholder {
     color: rgba(7, 2, 17, 0.30);
-text-align: left;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.sub {
-    
+.sub {}
 
-}
-.usermail{
+.usermail {
     display: flex;
     position: relative;
 }
@@ -315,8 +306,6 @@ line-height: normal;
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
-    /* padding: 24px 56px; */
-    /* text-align: center; */
     width: 210px;
     height: 72px;
     border-radius: 0px 50px 50px 0px;
@@ -335,9 +324,7 @@ footer {
     height: 609px;
     background: #070211;
     margin: auto;
-    /* padding: 120px 140px; */
     color: white;
-    /* background-color: #070211; */
 }
 
 footer .add-contact {
@@ -365,42 +352,44 @@ footer .add-contact {
     font-weight: 500;
     line-height: 40px;
 }
-.line{
+
+.line {
     background: rgba(255, 255, 255, 0.15);
     width: 1320px;
-height: 1px;
-margin-right: 140px;
-margin-left: 140px;
+    height: 1px;
+    margin-right: 140px;
+    margin-left: 140px;
 }
 
-.social{
-    /* margin: 48px 640px 0  640px; */
+.social {
     margin: auto;
     text-align: center;
     margin-top: 48px;
     margin-bottom: 48px;
 }
 
-.copyright{
+.copyright {
     display: flex;
     justify-content: space-between;
 }
-.copyright p{
+
+.copyright p {
     margin: 50px 0 0 140px;
     color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
-.copyright h5{
+
+.copyright h5 {
     margin: 50px 140px 0 0;
     color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 
 }
