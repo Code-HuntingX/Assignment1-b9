@@ -332,6 +332,22 @@ footer .add-contact {
     justify-content: space-between;
 }
 
+.contact  .call-icon, .web-icon{
+    display: flex;
+}
+
+.contact .call-icon img {
+    width: 24px;
+    height: 24px;
+    padding-top: 6px;
+}
+
+.contact .web-icon img {
+    width: 24px;
+    height: 24px;
+    padding-top: 9px;
+}
+
 .add-contact .address {
     margin-top: 120px;
     margin-left: 140px;
@@ -388,8 +404,6 @@ footer .add-contact {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
 
 }
